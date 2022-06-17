@@ -20,6 +20,9 @@ public class Person implements Serializable {
     @Column(length = 10, nullable = false)
     private String gender;
 
+    @Column(nullable = false)
+    private Boolean enabled;
+
     public Person(){
     }
 
@@ -61,6 +64,14 @@ public class Person implements Serializable {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public Boolean getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(Boolean enabled) {
+        this.enabled = enabled;
     }
 
     @Override
