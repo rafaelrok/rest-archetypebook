@@ -65,6 +65,7 @@ public class PersonController {
         return new ResponseEntity<>(resources, HttpStatus.OK);
     }
 
+
     @ApiOperation(value = "Find a specific person by name" )
     @GetMapping(value = "/findPersonByName/{firstName}", produces = { "application/json", "application/xml", "application/x-yaml" })
     public ResponseEntity<?> findPersonByName(
