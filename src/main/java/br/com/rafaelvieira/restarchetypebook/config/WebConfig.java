@@ -2,7 +2,7 @@ package br.com.rafaelvieira.restarchetypebook.config;
 
 import java.util.List;
 
-import br.com.rafaelvieira.restarchetypebook.utils.YamlJackson2HttpMessageConverter;
+import br.com.rafaelvieira.restarchetypebook.utils.serialization.YamlJackson2HttpMessageConverter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;

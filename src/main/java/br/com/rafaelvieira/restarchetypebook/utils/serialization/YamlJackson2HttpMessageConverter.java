@@ -1,4 +1,4 @@
-package br.com.rafaelvieira.restarchetypebook.utils;
+package br.com.rafaelvieira.restarchetypebook.utils.serialization;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter;
